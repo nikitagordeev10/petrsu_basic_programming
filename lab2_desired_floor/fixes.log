@@ -1,0 +1,19 @@
+main.c:9:9: fatal error: studio.h: Нет такого файла или каталога
+ #include<studio.h>
+         ^~~~~~~~~~
+compilation terminated.
+
+mai.c: In function ‘Main’:
+1.c:24:5: error: expected ‘;’ before ‘printf’
+     printf("Введите число квартир на каждом этаже: ");
+     ^~~~~~ 
+
+- Исправил <studio.h> на <stdio.h>.
+- Изменил int Main() на int main().
+- Добавил точку с запятой в scanf("%d", &flat_number).
+- Убрал лишний аргумент flat_number в строке printf("Вам нужно подняться на %d этаж\n", flat_number / flats_per_floor, flat_number).
+
+- При использовании ключей -pedantic и -pedantic-errors компилятор будет выводить дополнительные предупреждения и сообщения об ошибках, связанных со строгим соответствием стандарту C89.
+- При использовании более современной версии стандарта C11, многие предупреждения, связанные со старыми функциями или возможными несоответствиями, исчезнут.
+
+Что за файлы: dryrun.log и targets.log

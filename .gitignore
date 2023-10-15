@@ -13,11 +13,13 @@
 *-exe-S
 *-exe-c
 *.c#
+*.h5
 
 # Игнорировать файлы проекта и среды разработки
 .vscode/
 .gdb_history
 .idea/
+.idea
 *.suo
 *.user
 *.sln
@@ -57,3 +59,5 @@ pom.xml
 \additional_education
 \other
 \_trash
+\python_lab_6\logs
+\python_lab_6\logs_nikita

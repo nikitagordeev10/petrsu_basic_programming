@@ -1,4 +1,7 @@
 # Игнорировать файлы сборок, компилятора, линкера, и временные файлы
+*
+!*.*
+!*/
 *.o
 *.obj
 *.exe
@@ -61,3 +64,4 @@ pom.xml
 /_trash
 /python_lab_6/logs
 /python_lab_6/logs_nikita
+/buf

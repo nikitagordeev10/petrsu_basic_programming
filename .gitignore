@@ -55,9 +55,9 @@ pom.xml
 .DS_Store
 
 # Рабочие папки
-\конспекты
-\additional_education
-\other
-\_trash
-\python_lab_6\logs
-\python_lab_6\logs_nikita
+/конспекты
+/additional_education
+/other
+/_trash
+/python_lab_6/logs
+/python_lab_6/logs_nikita
